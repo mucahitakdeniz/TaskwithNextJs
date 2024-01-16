@@ -3,7 +3,6 @@ import { getPosts } from "../app/helpers/postFunctions";
 
 const Card = async () => {
   const { data } = await getPosts();
-  console.log(data);
 
   return (
     <div className="flex flex-wrap justify-center">

@@ -3,7 +3,6 @@ import axios from "axios";
 const API_KEY = process.env.API_KEY;
 
 export const getPosts = async () => {
-    console.log(API_KEY);
   const URL = `https://dummyapi.io/data/v1/post/`;
 
   try {
