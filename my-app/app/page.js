@@ -1,6 +1,5 @@
 import Card from "@/components/Card";
-
-export default function Home() {
+export default function Home(){
   return (
     <div>
       <h1>Tags...</h1>
@@ -9,3 +8,4 @@ export default function Home() {
     </div>
   );
 }
+
