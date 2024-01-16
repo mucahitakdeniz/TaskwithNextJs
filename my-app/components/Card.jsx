@@ -16,8 +16,6 @@ const Card = async () => {
             className="w-full h-64 object-cover object-center"
             src={post.image}
             alt={post.id}
-            width="250px"
-            height="250px"
           />
           <div className="p-6">
             <h2 className="font-bold text-xl mb-2"> {post.text}</h2>
